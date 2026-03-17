@@ -1,5 +1,8 @@
 from fastapi import FastAPI
 from database import engine,Base
+from models.user import User
+from models.project import Project
+from models.secret import Secret
 
 from dotenv import load_dotenv
 import os
