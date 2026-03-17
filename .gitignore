@@ -1,0 +1,12 @@
+.env
+.devvault_token
+
+__pycache__/
+*.pyc
+
+venv/
+
+.vscode/
+
+.DS_Store
+Thumbs.db
