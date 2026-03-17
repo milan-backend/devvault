@@ -1,9 +1,12 @@
 from fastapi import FastAPI
+from database import engine,Base
 
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
+
+Base.metadata.create_all(bind=engine)
 
 from routes.auth.signup import router as signup_router
 from routes.auth.login import router as login_router
