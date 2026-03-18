@@ -92,3 +92,6 @@ def pull(project_name: str):
 
 if __name__ == "__main__":
     app()
+
+def main():
+    app()

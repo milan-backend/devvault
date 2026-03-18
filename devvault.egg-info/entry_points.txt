@@ -1,0 +1,2 @@
+[console_scripts]
+devvault = cli.devvault_cli:app

@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "devvault=cli.devvault_cli:app"
+            "devvault=cli.devvault_cli:main"
         ]
     },
 )
