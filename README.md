@@ -86,11 +86,15 @@ devvault pull backend_project
 
 ## 🔐 Security
 
-* Secrets are encrypted before storage
-* No secrets stored in plaintext
-* `.env` file ignored via `.gitignore`
-* JWT-based authentication
-* Project-level access control
+DevVault is built with security as a core principle:
+
+* 🔒 All secrets are encrypted using Fernet (symmetric encryption) before storing in the database
+* ❌ Secrets are never stored in plaintext
+* 🔑 Encryption key is managed via environment variables (`.env`)
+* 🔐 JWT-based authentication for all protected endpoints
+* 🧑‍💻 Project-level access control (users can only access their own projects and secrets)
+* 🚫 `.env` files and tokens are excluded using `.gitignore`
+
 
 ---
 
