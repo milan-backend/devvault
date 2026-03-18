@@ -30,7 +30,15 @@ DevVault provides:
 
 ## ⚙️ How It Works
 
-### 🔹 Step 1 — Setup (One-Time)
+### 🔹Step 1 - Install DevVault CLI
+
+1. git clone https://github.com/milan-backend/devvault.git
+
+2. cd devvault
+
+3. pip install -e .
+
+### 🔹 Step 2 — Setup (One-Time)
 
 Using API (Swagger UI):
 
@@ -40,7 +48,7 @@ Using API (Swagger UI):
 
 ---
 
-### 🔹 Step 2 — Daily Usage
+### 🔹 Step 3 — Daily Usage
 
 Using CLI:
 
