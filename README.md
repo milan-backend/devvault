@@ -163,11 +163,23 @@ http://127.0.0.1:8000/docs
 
 ---
 
+
+
 ## 💻 CLI Usage
 
+## Install DevVault CLI
+
+1. git clone https://github.com/milan-backend/devvault.git
+
+2. cd devvault
+
+3. pip install -e .
+
+## Run
+
 ```bash
-python cli/devvault_cli.py login <email> <password>
-python cli/devvault_cli.py pull <project_name>
+devvault login <email> <password>
+devvault pull <project_name>
 ```
 
 ---
